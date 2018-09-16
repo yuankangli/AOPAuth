@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>登录</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="../resources/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../resources/css/common.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<!-- Navigation bar starts -->
+<div class="container" style="max-width: 500px;margin:0 auto;padding: 80px 5px;">
+    <div class="content"
+         style="background-color: rgba(228, 241, 247, 0.5);border: 1px solid #eee;padding: 15px;border-radius:18px;">
+        <h3 class="text-center">登陆账号</h3>
+        <div class="form">
+            <form class="form-horizontal" method="post" onsubmit="return false;" id="loginForm">
+                <!-- Username -->
+                <div class="form-group">
+                    <label class="control-label" for="username">用户名</label>
+                    <div>
+                        <input type="text" class="form-control" id="username" name="username" required>
+                    </div>
+                </div>
+                <!-- Password -->
+                <div class="form-group" style="padding-bottom: 20px;">
+                    <label class="control-label" for="password">密码</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <!-- Buttons -->
+                <div style="text-align:center" class="aligncenter">
+                    <button type="submit" class="btn btn-primary" onclick="login();">
+                        登陆
+                    </button>
+                    <button type="button" class="btn btn-info" style="margin-left: 20px;" onclick="$.errrorTips('待做...')">
+                        忘记密码
+                    </button>
+                    <span class="form-message">
+
+                    </span>
+                    <br/>
+                    <div style="padding: 18px;">
+                        没有账号? <a href="./register.html" style="text-decoration:underline;">注册</a>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+<script src="../resources/JQuery/jquery-3.3.1.min.js"></script>
+<script src="../resources/bootstrap/js/bootstrap.min.js"></script>
+<script src="../resources/js/login.js"></script>
+<script src="../resources/js/bg.js"></script>
+<script src="../resources/js/common.js"></script>
+<script src="../resources/bootstrapExtrends/js/jquery.bootstrap-growl.min.js"></script>
+<script src="../resources/bootstrapExtrends/js/bootbox.min.js"></script>
+</body>
+</html>

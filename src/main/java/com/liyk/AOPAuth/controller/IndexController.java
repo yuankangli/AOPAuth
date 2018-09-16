@@ -12,6 +12,6 @@ public class IndexController {
 
     @RequestMapping("")
     public String index(){
-        return "redirect:views/index.html";
+        return "redirect:views/login.html";
     }
 }
