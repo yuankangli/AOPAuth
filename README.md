@@ -14,7 +14,7 @@
 2. 导入数据库内容,文件路径为 :   
 `sql\aopauth.sql`
 3. 运行 `com.liyk.AOPAuth.AopAuthApplication` 文件,即可访问  
-`http://localhost:8080` 查看效果
+`http://localhost:8080` 查看效果(密码全部都为123456)
 
 #### 使用说明
  以 demo1:add 权限进行说明  
